@@ -1,0 +1,24 @@
+spring:
+ datasource:
+  username: root
+  password: root
+  url: jdbc:mysql://localhost:3306/nirsa
+  driver class name: com.mysql.cj.jdbc.Driver
+ jpa:
+   hibernate:
+     ddl-auto: update
+   show-sql: true
+   database-platform: org.hibernate.dialect.MySQL8Dialect
+
+ mail:
+    host: smtp.gmail.com  
+    port: 587  
+    username: nirsaboy72@gmail.com
+    password: njuf pfip ilvf rnqz 
+    properties: 
+     mail:
+      smtp: 
+        auth: true
+        starttls:
+          required: true
+          enable: true

@@ -1,0 +1,14 @@
+Hi ${Name} ${LNAME}, <BR/>
+<BR/>
+
+Welcome to nikhil  your regestration is almost  completed. <br/>
+<br/>
+
+please unlock your account using below details . <br/>
+
+Temporary Pwd : ${Temp_pwd} <br/>
+
+<a href ="http://localhost:4200/unlock?email=${email}"> click here to unlock</a> <br/>
+
+<br/>
+
